@@ -1,6 +1,6 @@
 package day02_variables;
 
-public class day02_CalismaSorulari {
+public class Day02_CalismaSorulari {
 
     public static void main(String[] args) {
         int sayi1=150;
