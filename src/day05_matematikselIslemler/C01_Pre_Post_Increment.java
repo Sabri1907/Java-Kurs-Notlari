@@ -13,11 +13,16 @@ public class C01_Pre_Post_Increment {
 
          */
 
-        int sayi3=sayi2++;  // 1. sayi2 bir arttirilacak
-                            // 2. sayi2 degeri sayi3'e atanacak.
+        int sayi3=sayi2++;  // 1. sayi2 degeri sayi3'e atanacak.
+                            // 2. sayi 2 degeri bir arttirilacak
 
 
         int sayi4= ++sayi1;     // 1. sayi1 bir arttirilacak
-                                // 2. sayi1 degeri sayi4'e atanacak.
+                                // 2. Arttirilan sayi1 degeri sayi4'e atanacak.
+
+        System.out.println("sayi3 = " + sayi3); // 16
+        System.out.println("sayi2 = " + sayi2); // 17
+        System.out.println("sayi1 = " + sayi1); // 11
+        System.out.println("sayi4 = " + sayi4); // 11
     }
 }

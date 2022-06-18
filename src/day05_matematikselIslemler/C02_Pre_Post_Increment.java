@@ -19,6 +19,10 @@ public class C02_Pre_Post_Increment {
 
         System.out.println("Post-Increment'dan Sonra :" + sayi);//12
 
+        sayi++; // 13
+
+        ++sayi; // 14
+
 
     }
 }

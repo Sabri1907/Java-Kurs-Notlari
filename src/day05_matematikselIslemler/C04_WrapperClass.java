@@ -6,12 +6,17 @@ public class C04_WrapperClass {
 
         String str="Java Cok guzel";
         str.toUpperCase();
+
+        int sayi=10;
         /*
         Primitive data turlerinin yaninda method'lar olmaz.
-        Java bazi method'lari kullanabilmemiz icin her bir primitive
+        Java bazi method'lari kullanabilmemiz icin her bir primitive data turu icin bir
+        Wrapper Class olusturmustur.
          */
 
-        Integer sayi=10;
+        Integer sayi2=10;
+
+        sayi2.byteValue();
 
 
     }
