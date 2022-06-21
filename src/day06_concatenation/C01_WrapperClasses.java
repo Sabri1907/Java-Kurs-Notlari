@@ -1,4 +1,4 @@
-package day_concatenation;
+package day06_concatenation;
 
 import java.util.Scanner;
 
@@ -43,7 +43,7 @@ public class C01_WrapperClasses {
         Integer sifreSayi=Integer.parseInt(sifre);
 
         System.out.println("Girilen Sifre: "+(sifre+3));// 12345 icin sonuc 123453 olur.
-        System.out.println("Integer Sifre: "+ (sifreSayi+3)); // 12348 icin sonuc 123453 olur.
+        System.out.println("Integer Sifre: "+ (sifreSayi+3)); // 12345 icin sonuc 12348 olur.
 
         /*
         Wrapper Class'lar ileride kullanacagimiz pek cok faydali method icerir.

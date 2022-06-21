@@ -1,4 +1,4 @@
-package day_concatenation;
+package day06_concatenation;
 
 public class C02_Concatenation {
     public static void main(String[] args) {
@@ -13,5 +13,7 @@ public class C02_Concatenation {
         System.out.println(sayi1 + sayi2 + " " + str1); // 9 Java
         System.out.println("" + sayi1 + sayi2 + " " + str2); // 54 Guzeldir
 
+        System.out.println(str1.concat(str2)); // JavaGuzeldir
+        System.out.println(str1.concat(" ").concat(str2)); // Java Guzeldir
     }
 }
