@@ -19,7 +19,7 @@ public class C06_ArtikYil {
         } else if (yil%400!=0) {
             System.out.println("Artik yil degil");
         }else {
-            System.out.println("artik yil");
+            System.out.println("Artik yil");
         }
     }
 }
