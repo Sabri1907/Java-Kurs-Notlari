@@ -21,6 +21,8 @@ public class C05_SwitchCase {
          break; yazisi gorunceye veya switch parantezine kadar calismaya devam eder.
 
          If-else if-....else yapisinda oldugu gibi hic bir sarta uymayanlari
+         default keyword'u ile tanimlariz
+
          */
 
         switch(gunNo){

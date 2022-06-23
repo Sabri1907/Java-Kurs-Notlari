@@ -14,7 +14,7 @@ public class C01_Ternary {
         System.out.print("Lutfen bir sayi giriniz: ");
         double sayi=scan.nextDouble();
 
-        System.out.println(sayi>=0?sayi:(-1*sayi));
+        System.out.println("Girdiginiz Sayinin Mutlak Degeri :"+ (sayi>=0?sayi:(-1*sayi)));
 
     }
 

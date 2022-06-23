@@ -15,7 +15,7 @@ public class C02_Ternary {
         double sayi=scan.nextDouble();
 
         /*
-        Eger ternary icindeki sonuclar farkli ise data turlerinde ise bunu bir variable'a atama yapamayiz.
+        Eger ternary icindeki sonuclar farkli data turlerinde ise bunu bir variable'a atama yapamayiz.
         Sadece yazdirabiliriz.
         Ornek : double sonuc=sayi>0 ? "Sayi Pozitif : (sayi*sayi);
          */

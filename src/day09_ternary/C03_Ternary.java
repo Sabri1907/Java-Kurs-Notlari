@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C03_Ternary {
     public static void main(String[] args) {
         /*
-        SORU: Kullanixidan bir sayi isteyin. Sayi pozitifse sayiyi yazdirin.
+        SORU: Kullanicidan bir sayi isteyin. Sayi pozitifse sayiyi yazdirin.
         Sayi 0 veya negatifse; bir sayi daha isteyin ve iki sayinin carpimini yazdirin.
          */
 
