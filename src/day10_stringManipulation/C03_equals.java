@@ -26,7 +26,7 @@ public class C03_equals {
         String'lerde ayni String olsa bile == sign her zaman dogru calismaz.
         Emin olmak icin equals() methodunu kullanmaliyiz.
 
-        equals() kullandigimizda dikkat edecegimiz tek sey metinlerin bire-bir ayni olmasi gerektigidir.
+        equals() kullandigimizda dikkat edecegimiz TEK SEY metinlerin bire-bir ayni olmasi gerektigidir.
          */
 
 

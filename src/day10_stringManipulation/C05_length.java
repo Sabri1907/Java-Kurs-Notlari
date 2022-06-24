@@ -24,6 +24,9 @@ public class C05_length {
         String str3=null; // str2'ye bir deger atanmis midir = HAYIR
                           // null bu deger atamamayi isaret etmektedir.
 
+        System.out.println(str3.length());  // bir deger atanmamis ki nasil uzunlugu olsun ?
+        // NullPointerException olarak hata verir
+
 
     }
 }

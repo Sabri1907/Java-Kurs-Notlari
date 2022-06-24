@@ -22,8 +22,9 @@ public class C01_charAt {
 
 
         /*
-        ONEMLI NOT: chatAT() kullandigimizda baska bir method kullanamayiz.
-        String ile Yapacagimiz baska bir islem varsa
+        ONEMLI NOT: charAt() kullandigimizda sonuc char olacagi icin artik manipulation yapamayiz
+        String method'larindan kullanmamiz gereken bir method varsa
+        charAt( ) 'den once kullanmaliyiz
          */
     }
 }
