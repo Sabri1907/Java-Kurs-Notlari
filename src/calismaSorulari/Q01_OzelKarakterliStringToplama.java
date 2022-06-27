@@ -1,6 +1,6 @@
-package day12_stringManipulations;
+package calismaSorulari;
 
-public class Q01 {
+public class Q01_OzelKarakterliStringToplama {
     public static void main(String[] args) {
         /*
         String seklinde verilen asagidaki fiyatlarin toplamini bulunuz
