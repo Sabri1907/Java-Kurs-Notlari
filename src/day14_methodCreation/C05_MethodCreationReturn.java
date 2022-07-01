@@ -24,6 +24,7 @@ public class C05_MethodCreationReturn {
         NOT: Her method icin ayri Scanner olusturmamiz gerekir. Baska methodda olusturulan Scanner
         diger methodda kullanilmaz.
          */
+        String sehir1="";
 
         String sehir= sehirAl();
         String tarih= tarihAl();

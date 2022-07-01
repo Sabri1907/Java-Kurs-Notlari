@@ -5,5 +5,6 @@ public class C06_MethodCreation {
        // System.out.println(C05_MethodCreationReturn.sehirAl()); // Asagidaki islemle ayni sonucu dondurur.
         String sehirAdi=C05_MethodCreationReturn.sehirAl();
         System.out.println(sehirAdi);
+
     }
 }
