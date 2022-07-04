@@ -8,6 +8,7 @@ public class C01_ReturnMethod {
         int sayi2=5;
 
         int sonuc=carpGetir(sayi1,sayi2);
+        System.out.println("Ille de sonucu goreyim diyenlere: "+sonuc);
 
 
     }

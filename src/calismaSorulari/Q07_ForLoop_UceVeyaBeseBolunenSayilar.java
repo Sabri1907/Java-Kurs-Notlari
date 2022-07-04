@@ -2,7 +2,7 @@ package calismaSorulari;
 
 import java.util.Scanner;
 
-public class Q07_ForLoop {
+public class Q07_ForLoop_UceVeyaBeseBolunenSayilar {
     public static void main(String[] args) {
 
         /*
