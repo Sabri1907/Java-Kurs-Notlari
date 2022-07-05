@@ -2,7 +2,7 @@ package calismaSorulari;
 
 import java.util.Scanner;
 
-public class Q11_Palindrome {
+public class Q11_ForLoop_Palindrome {
     public static void main(String[] args) {
         /*
         SORU: Kullanicidan bir String isteyin. Kullanicinin girdigi String'in
