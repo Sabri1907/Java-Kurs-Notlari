@@ -18,7 +18,8 @@ public class C07_WhileLoop {
 
         }
 
-        System.out.println("");
+        System.out.println("" +
+                "");
 
         //2. While ile Yapilisi
         System.out.println("<==While ile Yapilisi==>");

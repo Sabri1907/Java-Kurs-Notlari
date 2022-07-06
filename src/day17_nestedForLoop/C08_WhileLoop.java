@@ -17,7 +17,8 @@ public class C08_WhileLoop {
         int sayi=0;
         int sayac=0;
 
-        while(toplam<500 || sayac<11){
+        while(toplam<500
+        ){
             System.out.println("Lutfen toplamak icin sayi giriniz");
             sayi=scan.nextInt();
             toplam+=sayi;
