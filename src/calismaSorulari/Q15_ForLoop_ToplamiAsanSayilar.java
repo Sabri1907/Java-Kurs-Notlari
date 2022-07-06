@@ -21,6 +21,7 @@ public class Q15_ForLoop_ToplamiAsanSayilar {
             sayac++;
             if (sayac==10 || toplam>500){
                 System.out.println("Bukadar yeter\n"+sayac+" adet sayi girdin, toplami "+toplam);
+                break;
 
             }
 

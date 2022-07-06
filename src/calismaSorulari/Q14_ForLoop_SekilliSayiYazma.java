@@ -17,10 +17,12 @@ public class Q14_ForLoop_SekilliSayiYazma {
         int sayi=scan.nextInt();
         for (int i = 1; i <=sayi ; i++) {
 
-            for (int j = 1; j <=i ; j++) {
-                System.out.print(j+" ");
+                    for (int j = 1; j <=i ; j++) {
 
-            }
+                         System.out.print(j+" ");
+
+                     }
+
             System.out.println("");
 
         }

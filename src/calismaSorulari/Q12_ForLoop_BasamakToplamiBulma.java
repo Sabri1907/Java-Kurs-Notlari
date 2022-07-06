@@ -9,7 +9,7 @@ public class Q12_ForLoop_BasamakToplamiBulma {
                Output   : 21
          */
 
-        int sayi=111111111;
+        int sayi=153256547;
 
         basamakToplaminiBul(sayi);
 
@@ -28,6 +28,8 @@ public class Q12_ForLoop_BasamakToplamiBulma {
             sayi/=10;
 
         }
+
+        System.out.println("basamakSayisi = " + basamakSayisi.length());
 
         System.out.println("Girilen sayinin basamaklari toplami: "+toplam);
     }
