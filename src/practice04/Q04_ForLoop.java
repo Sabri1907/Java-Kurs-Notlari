@@ -15,5 +15,9 @@ public class Q04_ForLoop {
          13
          */
 
+        for (int i = 100; i >=0 ; i--) {
+
+        }
+
     }
 }
