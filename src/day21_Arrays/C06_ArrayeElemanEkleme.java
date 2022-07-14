@@ -8,6 +8,7 @@ public class C06_ArrayeElemanEkleme {
 
         String [] takimListesi={"Alex","Lefter"};
         String eklenecekIsim="Arda Guler";
+        System.out.println(Arrays.toString(takimListesi));
 
        takimListesi= C05_ArrayeElementEkleme.elemanEkle(takimListesi,eklenecekIsim); // Kullanabilmemiz icin atama
         // yapmamiz ya da yazdirmamiz gerekli.

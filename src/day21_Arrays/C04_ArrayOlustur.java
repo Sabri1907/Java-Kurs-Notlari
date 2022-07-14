@@ -18,6 +18,7 @@ public class C04_ArrayOlustur {
         Scanner scan=new Scanner(System.in);
         System.out.println("Kac elemanli bir array olusturmami istersiniz?");
         int uzunluk=scan.nextInt();
+
         int[] olusturulan=new int[uzunluk];
 
 

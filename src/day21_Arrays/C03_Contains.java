@@ -31,10 +31,7 @@ public class C03_Contains {
             if (isimler[i].equalsIgnoreCase(arananIsim)){
                 sonucMethod=true;
             }
-
         }
-
-
 
         return sonucMethod;
     }

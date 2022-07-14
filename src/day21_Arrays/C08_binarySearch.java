@@ -7,6 +7,7 @@ public class C08_binarySearch {
         /*
     Binary Search: Java'da eleman aramanin kisa yoludur. Ancak Binary Searc'un calismasi icin once Array'in
                    sirali hale getirilmesi gerekir.
+
     =>Eger siralama yapmadan Binary Search yaparsaniz sonucu bulamayabilir veya yanlis bulabilir.
      */
 
@@ -21,7 +22,7 @@ public class C08_binarySearch {
 
         /*
         binarySearch aramaya ortadan baslar. Aranan deger ortadaki degerden kucukse sola dogru arar,
-        buyukse saga dogru arar. O yuzden array'de bulunan bir degeri bulamayabilir veya yanlis sinuc dondurebilir.
+        buyukse saga dogru arar. O yuzden array'de bulunan bir degeri bulamayabilir veya yanlis sonuc dondurebilir.
         O yuzden emin olmak icin once sort yapmaluyiz.
          */
 

@@ -11,7 +11,10 @@ public class C05_ArrayeElementEkleme {
         String [] sinifListesi={"Sabri","Ayse","Gul"};
         String eklenecekIsim="Yusuf Kerem";
 
+        System.out.println(Arrays.toString(sinifListesi));
+
         sinifListesi=elemanEkle(sinifListesi,eklenecekIsim);
+
         System.out.println(Arrays.toString(sinifListesi));
     }
 
@@ -25,6 +28,7 @@ public class C05_ArrayeElementEkleme {
 
         }
         // Oncelikle eski listedeki tum elemanlari yeni listeye atadik
+
         yeniSinifListesi[yeniSinifListesi.length-1]=eklenecekIsim;
 
         // En sonunda eklenecek ismi yeni array'in son indeksine atadik.
