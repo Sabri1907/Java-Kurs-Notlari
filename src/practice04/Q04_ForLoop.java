@@ -15,9 +15,15 @@ public class Q04_ForLoop {
          13
          */
 
-        for (int i = 100; i >=0 ; i--) {
-
+        int toplam=0;
+        for (int i = 100; i >0 ; i--) {
+            if (i%13==0){
+                System.out.println(i);
+                toplam+=i;
+            }
         }
+
+        System.out.println("13'e tam bolunen 100'den kucuk sayilarin toplami: "+toplam);
 
     }
 }
