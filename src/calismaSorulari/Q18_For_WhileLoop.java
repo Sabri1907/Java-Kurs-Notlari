@@ -1,8 +1,6 @@
 package calismaSorulari;
 
-import java.util.Scanner;
-
-public class Q18 {
+public class Q18_For_WhileLoop {
     public static void main(String[] args) {
 
         /*
