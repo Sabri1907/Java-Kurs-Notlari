@@ -20,9 +20,9 @@ public class Q22_OdevPaylasim {
     }
 
     public static String istenmeyeniCikar(String cumle, String cikarilacakKelime) {
-        String yeniCumle=cumle.replace(cikarilacakKelime,"");
+        cumle=cumle.replace(cikarilacakKelime,"");
 
 
-        return yeniCumle;
+        return cumle;
     }
 }
