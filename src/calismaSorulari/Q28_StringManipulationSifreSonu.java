@@ -1,6 +1,6 @@
 package calismaSorulari;
 
-public class Q30 {
+public class Q28_StringManipulationSifreSonu {
     public static void main(String[] args) {
         /*
         SORU: Kullanicidan email adresini girmesini isteyin, mail @gmail.com

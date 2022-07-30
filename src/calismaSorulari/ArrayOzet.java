@@ -23,6 +23,16 @@ public class ArrayOzet {
 
         //4=) Arrays 2 şekilde oluşturulur.
             int arr[ ] = new int[3]; // 1.Yöntem
+            System.out.println(Arrays.toString(arr)); // [0, 0, 0]
+
+            String isimler[]=new String[2];
+            System.out.println(Arrays.toString(isimler)); // [null, null]
+
+            boolean iyiMisin[]=new boolean[5];
+            System.out.println(Arrays.toString(iyiMisin)); // [false, false, false, false, false]
+
+            char karakter[]=new char[3];
+            System.out.println(Arrays.toString(karakter)); // [ ,  ,  ]
             /*- Burda uzunluğu 3 olan bır array oluşturuldu.
             - Bu şekilde oluşturulan array'a değer atamzsak Java data türüne uygun default değerler atar.
             - Bu arrayi yazdırırsak ekranda [0, 0, 0] görürüz.
@@ -75,7 +85,7 @@ public class ArrayOzet {
         System.out.println(Arrays.binarySearch(sayilar,6)); // -3
         System.out.println(Arrays.binarySearch(sayilar,-100)); // -1
 
-       //8=) equals() method’u degerleri ve indexleri birlirkte kontrol edip, boolean bir
+       //8=) equals() method’u degerleri ve indexleri birlikte kontrol edip, boolean bir
         // deger return eder. Elamanların aynı olmasının yanında sıralama da önemlidir.
 
         int[] sayilar2= {3,7,15,4,77,10};
