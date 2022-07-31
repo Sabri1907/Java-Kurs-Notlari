@@ -10,7 +10,7 @@ public class C02_PassByValue {
     }
     public static double indirimliFiyat(double orjinalFiyat){
         // methodumuz %10 indirim yapip
-        // yeni fiyati main methid'a dondursun
+        // yeni fiyati main method'a dondursun
         double satisFiyati=orjinalFiyat*0.9 ;
         return satisFiyati;
     }

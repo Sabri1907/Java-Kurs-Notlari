@@ -19,7 +19,7 @@ public class C08_equals_compare {
              String'deki gibi dusunmeyin.
          */
 
-        System.out.println(sb1.compareTo(sb2)); // 0 => Butun karakterler ayni oldugu
+        System.out.println(sb1.compareTo(sb2)); // 0 => Butun karakterler ayni oldugu icin 0 dondurur.
 
         StringBuilder sb3=new StringBuilder("Jave");
         System.out.println(sb1.compareTo(sb3)); // -4

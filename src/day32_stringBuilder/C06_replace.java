@@ -8,7 +8,7 @@ public class C06_replace {
         // NOT: StringBuilder'de replaceAll() methodu yok.
 
         sb.replace(5,9,"Up");
-        // replace() methodunda sirasiyla baslangic,bitis index'ini girdikten sonra dirilecek yeni degeri yazariz.
+        // replace() methodunda sirasiyla baslangic,bitis index'ini girdikten sonra girilecek yeni degeri yazariz.
         System.out.println(sb); // Calm Up
 
         sb.replace(4,5,">>>");
