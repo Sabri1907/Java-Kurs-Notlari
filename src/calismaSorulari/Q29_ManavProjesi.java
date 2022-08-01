@@ -51,18 +51,11 @@ public class Q29_ManavProjesi {
 
        Scanner scan=new Scanner(System.in);
 
-        List<String> urunler=new ArrayList<>(); // 1.Adim
-        urunler.add(0,"00-Domates");
-        urunler.add(1,"01-Patates");
-        urunler.add(2,"02-Biber");
-        urunler.add(3,"03-Sogan");
-        urunler.add(4,"04-Havuc");
-        urunler.add(5,"05-Elma");
-        urunler.add(6,"06-Muz");
-        urunler.add(7,"07-Cilek");
-        urunler.add(8,"08-Kavun");
-        urunler.add(9,"09-Uzum");
-        urunler.add(10,"10-Limon");
+        String urunListesi="00-Domates: 2.10 TL \n01-Patates: 3.2 TL \n02-Biber: 1.5 TL" +
+                "\n03-Sogan: 2.3 TL \n04-Havuc: 3.1 TL \n04-Havuc: 3.1 TL \n05-Elma: 1.2 TL" +
+                "\n06-Muz: 1.9 TL \n07-Cilek: 6.1 TL \n08-Kavun: 4.3 TL \n09-Uzum: 2.7 TL \n04-Limon: 0.5 TL";
+
+        System.out.println(urunListesi);
 
         List<Double> fiyatlar=new ArrayList<>(); // 1. Adim
         fiyatlar.add(0,2.10);
@@ -77,26 +70,17 @@ public class Q29_ManavProjesi {
         fiyatlar.add(9,2.7);
         fiyatlar.add(10,0.5);
 
-        for (int i = 0; i <urunler.size() ; i++) {
+        double sepetTutari=0;
 
-            for (int j = i; j <=i ; j++) {
-                System.out.println(urunler.get(i)+" "+fiyatlar.get(j)+" TL");
-            }
-        }
-
-        double toplamFiyat=0;
-
-        double odenecekFiyat=0;
+        double toplamTutar=0;
 
         String sepet="";
 
-        String alisveriseDevamMi="evet";
+        String alisveriseDevamMi="";
 
         boolean bl=true;
 
         while(bl){
-            Scanner scan1=new Scanner(System.in);
-
             System.out.println("Lutfen almak istediginiz urunun numarasini listeden giriniz"); // 2. Adim
 
             int urunKodu= scan.nextInt();
@@ -107,80 +91,80 @@ public class Q29_ManavProjesi {
 
             switch(urunKodu){
                 case(0):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(0));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo domates : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(0));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo domates : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(1):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(1));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo patates :  "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat);
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(1));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo patates :  "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar);
                     break;
 
                 case(2):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(2));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo biber : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(2));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo biber : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(3):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(3));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo sogan : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(3));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo sogan : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(4):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(4));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo havuc : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(4));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo havuc : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(5):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(5));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo elma : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(5));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo elma : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(6):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(6));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo muz : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(6));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo muz : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(7):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(7));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo cilek : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(7));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo cilek : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(8):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(8));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo kavun : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(8));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo kavun : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(9):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(9));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo uzum : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(9));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo uzum : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
 
                 case(10):
-                    toplamFiyat+=(alinanMiktar*fiyatlar.get(10));
-                    odenecekFiyat+=toplamFiyat;
-                    sepet+=sepet+" "+alinanMiktar+" kilo limon : "+toplamFiyat+" TL";
-                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+odenecekFiyat+" TL");
+                    sepetTutari+=(alinanMiktar*fiyatlar.get(10));
+                    toplamTutar+=sepetTutari;
+                    sepet+=sepet+" "+alinanMiktar+" kilo limon : "+sepetTutari+" TL";
+                    System.out.println("Mevcut sepetiniz: "+sepet+"\n Toplam Borcunuz: "+toplamTutar+" TL");
                     break;
             }
 
@@ -194,7 +178,7 @@ public class Q29_ManavProjesi {
 
         }
 
-        System.out.println("Kasaya hos geldiniz.\nToplam Borcunuz: "+odenecekFiyat+" TL" +
+        System.out.println("Kasaya hos geldiniz.\nToplam Borcunuz: "+toplamTutar+" TL" +
                 "\nBizi terih ettiginiz tesekkur ederiz");  // 7.Adim
 
 
