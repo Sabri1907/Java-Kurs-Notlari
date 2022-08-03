@@ -28,6 +28,12 @@ public class Aciklama {
        Vehicle HAS-A Car                Car HAS-A Engine
       (Parent)     (Child)             (Parent)  (Child)
 
+
+      NOT: extends olan classlar'da olusturulan constructor'in ilk satirinda
+      super() constructor call'i vardir.
+
+      ***Manuel constructor OLUSTURULMAMISSA default constructor calisir.
+
          */
 
 }

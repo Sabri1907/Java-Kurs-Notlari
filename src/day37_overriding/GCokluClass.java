@@ -4,14 +4,16 @@ public class GCokluClass {
 
 }
 
-//public class ikinciClass{
-//}
+        //public class ikinciClass{
+        //}
 
-/*
-Intelij'de actigimiz bir class icinde sadece bir public class bulunabilir.
-
-Class sinirlari disinda PUBLIC olmayan baska class'lar olusturabilirizd
- */
+        /*
+         IntelliJ'de actigimiz bir class icinde
+         sadece bir public class bulunabilir
+         class sinirlari disinda PUBLIC OLMAYAN baska classlar da olusturabiliriz
+         ancak proje'de yazdigimiz class ismini public yapmazsak
+         proje ile class arasinda sorun olacagindan CTE olusur
+         */
 
 class UcuncuClass{
 

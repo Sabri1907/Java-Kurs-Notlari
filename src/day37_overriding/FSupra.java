@@ -23,9 +23,11 @@ public class FSupra extends EToyota{
         Ama parent'in parent'inda ayni method'dan varsa bu sefer onu override eder.
 
         @Override notasyonu kullanmak mecburi degildir.
-        Ancak Overriden edilen method silinirse CTe vermesini istersek @Overriding notasyonu yazilmalidir.
+        Ancak Overriden edilen method silinirse CTE vermesini istersek @Overriding notasyonu yazilmalidir.
 
         NOT: Static,private, final methodlar override edilemez.
+
+        Private bir methodu child class'dan bile cagiramayiz. CTE verir.
          */
     }
 }
