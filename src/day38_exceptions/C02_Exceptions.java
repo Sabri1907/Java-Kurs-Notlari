@@ -32,6 +32,18 @@ public class C02_Exceptions {
 
 
             }
+        int sayi1=10;
+        int sayi2=0;
+
+        try {
+            int sonuc=sayi1/sayi2;
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Payda 0 olamaz");
         }
+
+        System.out.println("Kodumuz calismaya devam etti");
+
+    }
     }
 

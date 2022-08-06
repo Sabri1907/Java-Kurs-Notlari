@@ -17,6 +17,7 @@ public class C05_IllegalArgumentException {
             if (yas<0){
                 throw new IllegalArgumentException(); // Bu kodla yas bilgisini istedigimiz deger disinda olursa exception
                                                      // vermesini sagladik
+
             }else {
                 System.out.println("yas = " + yas);
             }
@@ -27,8 +28,9 @@ public class C05_IllegalArgumentException {
             //renkli yazdirmis olduk.
         }
 
-        Thread.sleep(5000); // Ya bekleyemezsem diye CT Exception verir.
-        // Method signature'ina throws InterruptedException ekleyerek olayin farkinda oldugumuzu belirttik.
+        Thread.sleep(5000);
+
+        System.out.println("Kodumuz bir sure durdu");
 
 
 
