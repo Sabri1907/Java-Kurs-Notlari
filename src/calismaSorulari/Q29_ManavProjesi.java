@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Q29_ManavProjesi {
+    static Scanner scan=new Scanner(System.in);
+
     public static void main(String[] args) {
         /*
 ====================PROJEMIZ===================================
@@ -49,7 +51,7 @@ public class Q29_ManavProjesi {
         //System.out.println("Hosgeldiniz, Lutfen menuden alisveris yapmak istedginiz ilgili alani seciniz" +
                 //"\n1. Manav \n2. Sarkuteri \n3. Market");
 
-       Scanner scan=new Scanner(System.in);
+
 
         String urunListesi="00-Domates: 2.10 TL \n01-Patates: 3.2 TL \n02-Biber: 1.5 TL" +
                 "\n03-Sogan: 2.3 TL \n04-Havuc: 3.1 TL \n04-Havuc: 3.1 TL \n05-Elma: 1.2 TL" +
@@ -169,6 +171,7 @@ public class Q29_ManavProjesi {
             }
 
             System.out.println("Baska urun almak ister misiniz? Lutfen Evet veya Hayir giriniz"); // 5.Adim
+            scan.nextLine();
             alisveriseDevamMi=scan.nextLine();
 
             if (alisveriseDevamMi.equalsIgnoreCase("hayir")){
