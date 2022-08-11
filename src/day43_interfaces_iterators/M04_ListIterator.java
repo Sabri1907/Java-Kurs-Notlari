@@ -19,6 +19,6 @@ public class M04_ListIterator {
             temp=(Integer)lit1.next()+3;
             lit1.set(temp);
         }
-        System.out.println(liste);
+        System.out.println(liste); // [13, 23, 33]
     }
 }

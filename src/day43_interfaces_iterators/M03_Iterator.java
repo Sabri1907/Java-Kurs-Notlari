@@ -13,10 +13,11 @@ public class M03_Iterator {
         for (Integer each: liste
         ) {
             each+=3;
-            System.out.print(each + " ");
+            System.out.print(each + " "); //13 23 33
         }
         System.out.println("");
-        System.out.println(liste);
+        System.out.println(liste); //[10, 20, 30]
+
         /* Java index yapisi olmaya collection'lardaki
          elementlere ulasmak veya degistirmek icin
          Iterator interface'ini olusturmustur.
