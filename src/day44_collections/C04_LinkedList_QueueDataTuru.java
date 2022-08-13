@@ -38,7 +38,7 @@ public class C04_LinkedList_QueueDataTuru {
          */
 
         Queue<String> ll4= new LinkedList<>();
-        // System.out.println("ll4.element() = " + ll4.element()); NoSuchElementException firlatir.
+        //System.out.println("ll4.element() = " + ll4.element()); //NoSuchElementException firlatir.
 
         System.out.println("ll4.peek() = " + ll4.peek()); // null
 
@@ -54,6 +54,8 @@ public class C04_LinkedList_QueueDataTuru {
         // System.out.println(ll4.remove()); => NoSuchElementException firlatti
 
         System.out.println("ll4.poll() = " + ll4.poll()); // null
+
+
     }
 
 }
