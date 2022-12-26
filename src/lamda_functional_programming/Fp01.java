@@ -49,7 +49,7 @@ public class Fp01 {
         list.stream().forEach(t-> System.out.print(t+" "));
         // "t->" list'deki elementlerin yerine geçer.
         // stream() methodu lambda için bize yeni methodlar kullanmamızı sağlar. Ve collection'daki elementleri akışa sunar.
-        // BAzı methodları stream()'sız bazı methodları da stream() ile kullanamayız.
+        // Bazı methodları stream()'sız bazı methodları da stream() ile kullanamayız.
 
     }
 
