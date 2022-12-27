@@ -24,9 +24,17 @@ public class Fp01 {
         liste.add(8);
         System.out.println("liste = " + liste);
 
+        System.out.println("listElemanlariniYazdirStructured");
         listElemanlariniYazdirStructured(liste);
         System.out.println();
+        System.out.println("listElemanlariniYazdirFunctional");
         listElemanlariniYazdirFunctional(liste);
+        System.out.println();
+        System.out.println("ciftElemanlariYazdirStructured");
+        ciftElemanlariYazdirStructured(liste);
+        System.out.println();
+        System.out.println("ciftElemanlariYazdirFunctional");
+        ciftElemanlariYazdirFunctional(liste);
 
 
 
@@ -47,11 +55,27 @@ public class Fp01 {
     public static void listElemanlariniYazdirFunctional(List<Integer> list){
 
         list.stream().forEach(t-> System.out.print(t+" "));
+        // stream() methodu collection'dan elementleri akışa dahil etmek için ve methodlara ulaşmak için kullanılır.
         // "t->" list'deki elementlerin yerine geçer.
         // stream() methodu lambda için bize yeni methodlar kullanmamızı sağlar. Ve collection'daki elementleri akışa sunar.
         // Bazı methodları stream()'sız bazı methodları da stream() ile kullanamayız.
 
     }
 
+    // 3. Cift list elemanlarını aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun. (Structured)
+    public static void ciftElemanlariYazdirStructured(List<Integer> list){
+        for (Integer w : list){
+            if (w%2==0){
+                System.out.print(w+" ");
+            }
+        }
+
+    }
+
+    // 4. Çift list elemanlarını aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun. (Functional)
+    public static void ciftElemanlariYazdirFunctional(List<Integer> list){
+        list.stream().filter(t-> t%2==0).forEach(t-> System.out.print(t+" "));
+
+    }
 
 }
