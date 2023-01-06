@@ -73,7 +73,7 @@ public class Fp01 {
     }
 
     // 4. Çift list elemanlarını aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun.
-    // (Functional Yöntem ile yapıldı.)
+    // Functional Yöntem ile yapıldı
     public static void ciftElemanlariYazdirFunctional(List<Integer> list){
         list.stream().filter(t-> t%2==0).forEach(t-> System.out.print(t+" "));
 
